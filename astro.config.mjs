@@ -14,6 +14,15 @@ export default defineConfig({
   
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      proxy: {
+        '/api': {
+          target: 'http://localhost:8080/api',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api/, '')
+        }
+      }
+    },
     ssr: {
       // Forzamos a que Framer Motion y Lucide se procesen correctamente en el SSR de Astro
       noExternal: ['framer-motion', 'lucide-react']

@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Navbar } from '../components/sections/Navbar';
+import { SearchDashboard } from '../components/home/Search';
+import { Footer } from '../components/sections/Footer';
+
+---
+
+<Layout title="Buscar Productos y Comparar Precios en Tiempo Real">
+  <div class="min-h-screen bg-background text-foreground antialiased flex flex-col justify-between">
+    <Navbar client:load />
+    
+    <main class="flex-grow pt-20">
+      <SearchDashboard client:load />
+    </main>
+    
+    <Footer />
+  </div>
+</Layout>

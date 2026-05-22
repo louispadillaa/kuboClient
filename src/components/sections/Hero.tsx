@@ -125,7 +125,7 @@ export function Hero() {
             className="absolute -top-6 -left-6 bg-card/90 shadow-xl rounded-2xl p-3 border border-border flex items-center gap-2 backdrop-blur-sm"
           >
             <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="text-xs font-semibold text-foreground">Scrapers activos</span>
+            <span className="text-xs font-semibold text-foreground">Decide donde realizar tu compra</span>
           </motion.div>
         </motion.div>
         

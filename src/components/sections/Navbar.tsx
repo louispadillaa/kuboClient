@@ -45,7 +45,7 @@ export function Navbar() {
             href="/search" 
             className="group relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-semibold rounded-full group bg-gradient-to-br from-primary to-purple-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-800 transition-transform active:scale-95 shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] mt-2"
           >
-            <span className="relative px-6 py-2.5 transition-all ease-in duration-75 bg-background rounded-full group-hover:bg-opacity-0 text-foreground font-medium group-hover:text-white">
+            <span className="relative px-6 py-2.5 transition-all ease-in duration-75 bg-background rounded-full group-hover:bg-opacity-0 text-foreground font-medium ">
               Empieza la búsqueda
             </span>
           </a>
